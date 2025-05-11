@@ -1,0 +1,37 @@
+[
+  {
+    "zipCode": "94040",
+    "cityName": "Mountain View",
+    "country": "US"
+  },
+  {
+    "zipCode": "10001",
+    "cityName": "New York",
+    "country": "US"
+  },
+  {
+    "zipCode": "33160",
+    "cityName": "North Miami Beach",
+    "country": "US"
+  },
+  {
+    "zipCode": "90001",
+    "cityName": "Los Angeles",
+    "country": "US"
+  },
+  {
+    "zipCode": "28001",
+    "cityName": "Madrid",
+    "country": "ES"
+  },
+  {
+    "zipCode": "28040",
+    "cityName": "Ellenboro",
+    "country": "US"
+  },
+  {
+    "zipCode": "75001",
+    "cityName": "Paris 01",
+    "country": "FR"
+  }
+]

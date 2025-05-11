@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Error Response Schema (400 - Nothing to geocode)",
+  "description": "Schema for an error response indicating that the requested city was not found.",
+  "type": "object",
+  "properties": {
+    "cod": {
+      "type": "string",
+      "description": "The error code returned by the API.",
+      "const": "400"
+    },
+    "message": {
+      "type": "string",
+      "description": "A descriptive error message indicating 'city not found'."
+    }
+  },
+  "required": ["cod", "message"]
+}

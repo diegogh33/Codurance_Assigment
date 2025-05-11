@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Error Response Schema (401)",
+  "description": "Schema for an error response indicating an invalid API key.",
+  "type": "object",
+  "properties": {
+    "cod": {
+      "type": "integer",
+      "description": "The error code returned by the API (e.g., 401 for Unauthorized).",
+      "const": 401
+    },
+    "message": {
+      "type": "string",
+      "description": "A descriptive error message explaining the issue."
+    }
+  },
+  "required": ["cod", "message"]
+}
